@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+  
+}
+
+body main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  margin: 10vh 50px;
+  display: flex;
+}
+
+.wrapper .events {
+  margin-left: 30px;
+}
+.wrapper .events h2 {
+  margin-top: 0;
+}
+
+.sphere {
+  fill: rgb(208, 230, 255);
+}
+
+path.country {
+	/* fill: #033033; */
+  stroke-opacity: .2;
+  transition: all .15s;
+}
+
+.timeline {
+  display: flex;
+  width: 80%;
+  border-bottom: 1px solid black;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  position: relative;
+}
+.timeline p {
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper div{
+  background-color: rgba(255,255,255,.95);
+  padding: 10px;
+  border-radius: 8px;
+  border: .5px solid rgba(33,33,33,.3)
+}
+.current {
+  height: 100%;
+  position: absolute;
+  transition: all .3s;
+}
+
+.current.active {
+  background-color: rgba(33,33,33,.3);
+}
+
+.timeline-wrapper {
+  position: relative;
+}
+
+.play {
+  width: 40px;
+  position: absolute;
+  left: 60px;
+  top: 25px;
+  cursor: pointer;
+}
+
+.title {
+  font: 25px bold sans-serif;
+}
+h1 {
+  margin: 0;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+.wrapper {
+  margin-top: 30px;
+}

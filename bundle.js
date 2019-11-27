@@ -196,7 +196,7 @@
         stopTimer: false,
         timeFilter: {
             firstValue: 0,
-            secondValue: 500
+            secondValue: 2200
         }
     };
   

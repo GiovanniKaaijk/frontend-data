@@ -90,3 +90,15 @@ h1 {
 .wrapper {
   margin-top: 30px;
 }
+
+.legenda {
+ width: 50px;
+  height:20px;
+}
+
+.legenda-min {
+ stroke:black;
+  stroke-width:1;
+  box-sizing: border-box;
+  width: 48px;
+}

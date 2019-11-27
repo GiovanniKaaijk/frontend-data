@@ -103,8 +103,37 @@ const updateTime = (time) => {
     updateData()
 }
 
+function renderLegenda() {
+ let legenda = svg.append('g')
+      .attr('class', 'legenda')
+ legenda 
+ .append('text')
+      .text("Max:")
+      .attr('x', '20')
+      .attr('y', '15');
+  legenda
+  	.append('rect')
+  		.attr('x', '60')
+  		.attr('y', '0')
+  		.attr('class', 'legenda legenda-max')
+  		.attr('fill', 'red')
+   legenda 
+ .append('text')
+      .text("Min:")
+      .attr('x', '20')
+      .attr('y', '40');
+  legenda
+  	.append('rect')
+  		.attr('x', '60')
+  		.attr('y', '25')
+  		.attr('class', 'legenda legenda-min')
+  		.attr('fill', 'white')
+  		.attr('')
+}
+
 // Render all elements on the SVG
 const renderSVG = () => {
+  	renderLegenda()
     g.append('path')
         .attr('class', 'sphere')
         .attr('d', pathCreator({type: 'Sphere'}));

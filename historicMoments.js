@@ -5,6 +5,7 @@ events.append('text')
     .attr('x', '20')
     .attr('y', '20')
     .attr('class', 'title')
+    
 
 export async function historicMoments(object, firsttimevalue, secondtimevalue){
   await d3.csv('koloniale-data.csv').then((data) => {

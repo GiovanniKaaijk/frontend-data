@@ -55,6 +55,9 @@ SELECT ?cho ?placeName ?date WHERE {
 LIMIT 10000
 ```
 
+### Enter update exit
+[Read this in my wiki](https://github.com/GiovanniKaaijk/frontend-data/wiki/3-Enter-update-exit-explained)
+
 ### App features
 - Search historical objects found on your favorite spots
 - Explore the heatmap of the world

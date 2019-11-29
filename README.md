@@ -11,6 +11,7 @@ The perfect website to discover more about your most favorite spots in the wold.
 - [Features](#Features)
   - [API](#API)
   - [App features](#app-features)
+  - [Enter update exit](#enter-update-exit)
 - [Installation](#Installation)
   - [Keep up to date](#Keep-up-to-date)
 - [Contributing](#Contributing)
@@ -60,8 +61,11 @@ LIMIT 10000
 - Explore the heatmap of the world
 - Display colonial events 
 
+### Enter update exit
+[Read this in my wiki](https://github.com/GiovanniKaaijk/frontend-data/wiki/Enter-update-exit-explained)
+
 ### Upcoming features
-- Explore the world over time
+- Explore historical events over time
 
 ## Interested in the project? Use the following steps to clone the project to your local computer:
 

@@ -31,13 +31,13 @@ function renderData(data, object, firsttime, secondtime) {
   console.log(eventArray)
 	eventArray.forEach(event => {
     event.y = y
-    event.PeriodOfTime = fixDate(event.PeriodOfTime, firsttime, secondtime)
+    event.PeriodOfTime = fixDate(event.PeriodOfTime)
     y += 20
   })
   displayData(eventArray)
 }
 
-function fixDate(date, firsttime, secondtime){
+function fixDate(date){
   date = date.split('-')
   date[1] = ' ' + date[1]
   date = date.join('-').slice(0, 12)

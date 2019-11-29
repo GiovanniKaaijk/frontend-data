@@ -159,7 +159,7 @@ const renderSVG = () => {
             tooltip.style("visibility", "hidden")
         })
         .on("click", (d) => { 
-						historicMoments(d, state.timeFilter.firstValue, state.timeFilter.secondValue);
+			historicMoments(d, state.timeFilter.firstValue, state.timeFilter.secondValue);
             tooltip
             .style("visibility", "visible")
             .text(d.properties.name + ': ' + d.properties.count + ' objecten')
